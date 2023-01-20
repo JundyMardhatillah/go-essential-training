@@ -24,7 +24,6 @@ func main() {
 	}
 
 	fmt.Println("====| continue loop |====")
-	// continue loop in the middle
 	for i := 0; i <= 3; i++ {
 		if i < 1 {
 			continue // means go to the next loop until 1 instead of 0
