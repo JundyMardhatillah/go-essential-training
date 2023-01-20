@@ -15,8 +15,8 @@ func main() {
 	b = 2
 
 	// print command
-	fmt.Printf("x=%v, type of %T\n", a, a) // %v is verb, v stands for value
-	fmt.Printf("x=%v, type of %T\n", b, b) // %T is special verb, T stands for type
+	fmt.Printf("a=%v, type of %T\n", a, a) // %v is verb, v stands for value
+	fmt.Printf("b=%v, type of %T\n", b, b) // %T is special verb, T stands for type
 
 	// calculate means
 	mean := (a + b) / 2.0 // == (1 + 2) / 2.0
